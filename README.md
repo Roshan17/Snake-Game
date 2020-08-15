@@ -1,2 +1,2 @@
 # Snake-Game
-C and OpenGL Glut implementation of snake game
+OpenGL-Glut implementation of the snake game.
