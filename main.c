@@ -6,7 +6,11 @@
 #define ROWS 40
 #define FPS 10
 
+int gameOver = 0;
+
 extern short sDirection;
+
+int score = 0;
 
 void display_callback();
 void reshape_callback(int,int);
@@ -38,7 +42,14 @@ void display_callback(){
     glClear(GL_COLOR_BUFFER_BIT);
     drawGrid();
     drawSnake();
+    drawFood();
     glutSwapBuffers();
+
+    if(gameOver){
+        printf("Game Over\n");
+        printf("Your Score is %d",score);
+        exit(0);
+    }
 }
 
 void timer_callback(){

@@ -1,11 +1,13 @@
 # depslib dependency file v1.0
-1597852083 source:/home/roshan/C/OpenGL/Snake Game/Snake-Game/main.c
+1598493632 source:/home/roshan/C/OpenGL/Snake Game/Snake-Game/main.c
 	<GL/gl.h>
-	<GL/glut.h>
-
-1598414222 source:/home/roshan/C/OpenGL/Snake Game/Snake-Game/game.c
 	<GL/glut.h>
 	"game.h"
 
-1598413985 /home/roshan/C/OpenGL/Snake Game/Snake-Game/game.h
+1598493895 source:/home/roshan/C/OpenGL/Snake Game/Snake-Game/game.c
+	<GL/glut.h>
+	"game.h"
+	<time.h>
+
+1598492914 /home/roshan/C/OpenGL/Snake Game/Snake-Game/game.h
 
