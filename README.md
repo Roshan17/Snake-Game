@@ -1,2 +1,3 @@
 # Snake-Game
-OpenGL-Glut implementation of the snake game.
+OpenGL-Glut(C) implementation of the snake game.
+![alt text](https://github.com/Roshan17/Snake-Game/blob/master/images/Screenshot_2020-08-27_07-43-12.png?raw=true)
